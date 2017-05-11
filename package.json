@@ -1,0 +1,23 @@
+{
+  "name": "soducrawler",
+  "version": "0.0.1",
+  "description": "Web crawler for sodureader",
+  "main": "index.js",
+  "dependencies": {
+    "angular-bootstrap-lightbox": "^0.12.0",
+    "charset": "^1.0.0",
+    "cheerio": "^0.20.x",
+    "debug": "^2.2.x",
+    "follow-redirects": "^1.2.3",
+    "iconv-lite": "^0.4.17",
+    "js-crawler": "^0.3.x",
+    "ng-admin": "^1.0.3",
+    "node-readability": "^2.2.0",
+    "parse-server": "^2.2.x"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.5.1"
+  }
+}
