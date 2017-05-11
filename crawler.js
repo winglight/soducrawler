@@ -308,20 +308,20 @@ function getBodyByURL(url, callback, char) {
 }
 
 function crawlAll() {
-    // crawlCartoonByPage(1);
-    new BookModel().findByUrl("http://www.soduso.com/mulu_3627785.html").then(function(results) {
-      for (var i = 0; i < results.length; i++) {
-          var object = results[i];
-          // debug("object:" + JSON.stringify(object));
-          debug("object sources:" + object.sources);
-          object.url = object.get("url");
-            crawlChapters(object, object.get('sources'));
-      }
-
-
-    },function(error) {
-    debug("Error: " + error.code + " " + error.message);
-    });
+    crawlCartoonByPage(1);
+    // new BookModel().findByUrl("http://www.soduso.com/mulu_3627785.html").then(function(results) {
+    //   for (var i = 0; i < results.length; i++) {
+    //       var object = results[i];
+    //       // debug("object:" + JSON.stringify(object));
+    //       debug("object sources:" + object.sources);
+    //       object.url = object.get("url");
+    //         crawlChapters(object, object.get('sources'));
+    //   }
+    //
+    //
+    // },function(error) {
+    // debug("Error: " + error.code + " " + error.message);
+    // });
 }
 
 function getRootUrl(url) {

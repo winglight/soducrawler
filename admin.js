@@ -18,7 +18,7 @@ const readerModal = ($uibModal) => {
                           $scope.close = () => $uibModalInstance.close();
                       }],
                       template:
-                          `<iframe srcdoc="{{content}}"></iframe>`
+                          '<div >{{content}}</div>'
                   });
                 }
 
