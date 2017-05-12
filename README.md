@@ -50,5 +50,13 @@
 6. nodejs: https://nodejs.org
 7. 其他使用到的开源项目，请看package.json
 
+## 有人问框架是什么，我大概总结了一下：
+
+1. 后台API+存储：parse-server（部署在Heroku）
+2. 爬虫（Nodejs）：js-crawler（crawler.js）
+3. 前端展示（JS）：ng-admin（admin.js、index.html）
+4. 实体（JS）：models目录下面的两个js文件
+5. 全部代码就是以上五个文件，其他要么是配置文件（Nodejs）、要么就是废弃而没删的代码（也许以后用得着？）
+
 
 ### 欢迎大家提出宝贵意见，反馈直接发到issue，有兴趣参与开发的可以提pull request，我会尽快处理。
